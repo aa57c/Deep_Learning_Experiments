@@ -1,0 +1,2 @@
+Validation loss: 0.02284519001841545
+Validation Acc: 0.9959999918937683

@@ -1,0 +1,1 @@
+Accuracy on CIFAR100: 0.6052
