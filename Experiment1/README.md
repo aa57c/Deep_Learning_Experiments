@@ -174,21 +174,21 @@ for model in models:
   </tr>
   <tr>
     <td align="center">
-      <img src="images/img3.png" alt="Image3" width="200"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model5.png?raw=true" alt="Image3" width="500"><br>
       <em>Model 5's Confusion Matrix</em>
     </td>
     <td align="center">
-      <img src="images/img4.png" alt="Image4" width="200"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model5_plot.png?raw=true" alt="Image4" width="500"><br>
       <em>Model 5's Accuracy/Loss Plot</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/img5.png" alt="Image5" width="200"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model7.png?raw=true" alt="Image5" width="200"><br>
       <em>Model 7's Confusion Matrix</em>
     </td>
     <td align="center">
-      <img src="images/img6.png" alt="Image6" width="200"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model7_plot.png?raw=true" alt="Image6" width="500"><br>
       <em>Model 7's Accuracy/Loss Plot</em>
     </td>
   </tr>
