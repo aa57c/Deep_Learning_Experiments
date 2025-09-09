@@ -161,6 +161,7 @@ for model in models:
 ## Sample Results (Models 1, 5, and 7)
 ### Note: the rest can be found in Releases under version 1.0.0
 ![Model 1's Confusion Matrix](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true)
+*Model 1's Confusion Matrix*
 
 
 ---
