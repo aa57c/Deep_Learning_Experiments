@@ -76,19 +76,29 @@ flowchart TD
 3. Run each notebook cell sequentially.
 
 # 📊 Outputs
+## Custom Topology
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Training Accuracy Plot</th>
+  </tr>
+  <tr>
+    <td align="center"><b>CIFAR100</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/CIFAR100/plot.png?raw=true" width="250"><br>
+      <em>Figure 1: Training Accuracy Plot for Custom Topology with CIFAR100 Dataset</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>TinyImageNet</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/ImageNet/plot.png?raw=true" width="250"><br>
+      <em>Figure 2: Training Accuracy Plot for Custom Topology with TinyImageNet Dataset</em>
+    </td>
+  </tr>
+</table>
 
-1. Experiment 2A (Custom Topology)
-   - Training history CSVs.
-   - Accuracy & Loss plots.
 
-2. Experiment 2A (Analysis)
-  - Comparative plots (Custom, ResNet, VGG).
-
-3. Experiment 2B (Segmentation)
-   - training_results.csv.
-   - Segmentation overlay images.
-   - Heatmaps for class-wise Accuracy & IoU.
-   - Detailed per-class metrics CSV.
 
 ### ⚡ Note: You don’t need to rerun all training to see results. Pre-generated CSV logs, plots, and visualizations are available in the Releases tab
 
