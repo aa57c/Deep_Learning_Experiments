@@ -160,8 +160,19 @@ for model in models:
 
 ## Sample Results (Models 1, 5, and 7)
 ### Note: the rest can be found in Releases under version 1.0.0
-![Model 1's Confusion Matrix](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true)
-*Model 1's Confusion Matrix*
+| ![Image1](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true) | ![Image2](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model1_plot.png?raw=true) |
+|----------------------------|----------------------------|
+| *Model 1's Confusion Matrix* | *Model 1's Accuracy/Loss Plots*                |
+
+| ![Image3](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model5.png?raw=true) | ![Image4](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model5_plot.png?raw=true) |
+|----------------------------|----------------------------|
+| *Model 5's Confusion Matrix*                | *Model 5's Accuracy/Loss Plots               |
+
+| ![Image5](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model7.png?raw=true) | ![Image6](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model7_plot.png?raw=true) |
+|----------------------------|----------------------------|
+| *Model 7's Confusion Matrix*                | *Model 7's Accuracy/Loss Plots*                |
+
+
 
 
 ---
