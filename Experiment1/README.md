@@ -1,192 +1,140 @@
-# Deep Learning Portfolio
-
-This repository contains two comprehensive deep learning projects demonstrating expertise in computer vision, object detection, and neural network architecture optimization.
-
-## 🚀 Projects Overview
-
-### 1. Object Detection Evaluation System
-**File:** `experiment1_B_yolo.py`
+# Object Detection Evaluation System
 
 A comprehensive evaluation framework for comparing YOLO model predictions against ground truth annotations using the Microsoft COCO dataset.
 
-### 2. CNN Architecture Comparison Study
-**File:** `experiment1.ipynb`
+## 🎯 Project Overview
 
-An extensive comparative analysis of 9 different CNN architectures on the CIFAR-10 dataset, exploring various optimization techniques and architectural improvements.
+This project implements a robust pipeline for evaluating object detection model performance by comparing YOLOv8 predictions with ground truth bounding boxes using Intersection over Union (IoU) metrics.
 
----
+## 🚀 Key Features
 
-## 📊 Project 1: Object Detection Evaluation System
+- **Automated Dataset Processing**: Seamless handling of Microsoft COCO annotations
+- **YOLO Integration**: Direct integration with Ultralytics YOLOv8 for inference
+- **Custom IoU Implementation**: Efficient intersection over union calculations
+- **Visual Validation**: Automatic bounding box visualization with ground truth overlays
+- **Comprehensive Metrics**: Detailed evaluation results exported for analysis
 
-### Overview
-This project implements a robust evaluation pipeline for object detection models, specifically focusing on YOLOv8 performance analysis against ground truth bounding boxes.
+## 🛠️ Technical Implementation
 
-### Key Features
-- **Dataset Processing**: Automated handling of Microsoft COCO dataset annotations
-- **YOLO Integration**: Seamless integration with Ultralytics YOLOv8 for inference
-- **IoU Calculation**: Custom implementation of Intersection over Union metrics
-- **Visualization**: Automatic bounding box visualization with ground truth overlays
-- **Performance Metrics**: Comprehensive evaluation results exported to CSV
+### Core Components
 
-### Technical Implementation
+#### 1. **Data Processing Pipeline**
+```python
+# Efficient CSV parsing and image loading
+df = pd.read_csv('/content/train/_annotations.csv')
+df = shuffle(df)
+```
 
-#### Core Components
-- **Data Loading & Preprocessing**: Efficient CSV parsing and image loading using OpenCV
-- **Ground Truth Extraction**: Automated bounding box extraction and class mapping
-- **Model Inference**: YOLOv8 model integration with configurable confidence thresholds
-- **Evaluation Metrics**: IoU calculation for predicted vs. ground truth comparisons
+#### 2. **Ground Truth Extraction**
+- Automated bounding box extraction from annotations
+- Class mapping and label management
+- Image-to-annotation correlation
 
-#### Code Highlights
+#### 3. **YOLO Model Integration**
+```python
+model = YOLO("yolov8m.pt")
+results = model.predict(source=image_path, conf=0.2, iou=0.5)
+```
+
+#### 4. **IoU Calculation Engine**
 ```python
 def calculate_iou(box1, box2):
-    """Calculates Intersection over Union for bounding box evaluation"""
-    # Efficient IoU implementation with edge case handling
+    """
+    Calculate Intersection over Union for bounding box evaluation
+    Handles edge cases and optimizes for performance
+    """
+    # Efficient implementation with proper edge case handling
 ```
 
-### Results & Output
-- **IoU Analysis**: Detailed comparison results saved to `iou_results.csv`
-- **Visual Validation**: Bounding box visualizations for qualitative assessment
-- **Performance Metrics**: Quantitative evaluation of model accuracy
+### Algorithm Workflow
 
----
+1. **Data Loading**: Parse COCO annotations and load corresponding images
+2. **Ground Truth Processing**: Extract and organize bounding box coordinates
+3. **Model Inference**: Run YOLOv8 predictions on test images
+4. **Evaluation**: Calculate IoU scores between predictions and ground truth
+5. **Results Export**: Generate comprehensive CSV report for analysis
 
-## 🧠 Project 2: CNN Architecture Comparison Study
+## 📊 Results & Output
 
-### Overview
-A systematic study comparing 9 different CNN architectures on CIFAR-10, implementing various optimization strategies and analyzing their impact on model performance.
+### Performance Metrics
+- **IoU Scores**: Detailed intersection over union calculations
+- **Class-wise Analysis**: Performance breakdown by object class
+- **Coordinate Precision**: Bounding box accuracy assessment
 
-### Architecture Configurations Tested
+### Output Files
+- `iou_results.csv`: Comprehensive evaluation metrics
+- Visual plots: Bounding box overlays for qualitative assessment
 
-| Model | Key Features | Learning Rate | Epochs | Innovations |
-|-------|-------------|---------------|---------|-------------|
-| **Config 1** | Baseline CNN | 0.0001 | 50 | Standard architecture |
-| **Config 2** | Increased Depth | 0.0001 | 50 | 48/96 filters, 1024 dense |
-| **Config 3** | Batch Normalization | 0.0001 | 50 | BN after each conv layer |
-| **Config 4** | ELU Activation | 0.001 | 50 | ELU instead of ReLU |
-| **Config 5** | Variable Dropout | 0.0001 | 50 | Progressive dropout rates |
-| **Config 6** | Higher Learning Rate | 0.001 | 50 | Optimized learning rate |
-| **Config 7** | Data Augmentation | 0.001 | 100 | ImageDataGenerator |
-| **Config 8** | Aggressive Learning | 0.01 | 50 | High learning rate |
-| **Config 9** | Full Optimization | 0.001 | 100 | BN + L2 + LR Scheduler |
+## 🔧 Technical Stack
 
-### Advanced Techniques Implemented
+**Core Libraries:**
+- `ultralytics`: YOLOv8 model integration
+- `opencv-python`: Image processing and visualization
+- `pandas`: Data manipulation and analysis
+- `numpy`: Numerical computations
+- `matplotlib`: Visualization and plotting
 
-#### 1. **Batch Normalization**
-```python
-Conv2D(64, (3, 3), padding='same', activation='relu', kernel_regularizer=l2(0.001))
-BatchNormalization()
-```
+**Key Dependencies:**
+- Python 3.8+
+- CUDA-compatible GPU (recommended)
+- Microsoft COCO dataset
 
-#### 2. **Data Augmentation**
-- Rotation (±10°)
-- Width/Height shifts (±5%)
-- Horizontal flipping
-- Zoom variations (±10%)
+## 💡 Key Technical Achievements
 
-#### 3. **Learning Rate Scheduling**
-```python
-def scheduler(epoch, lr):
-    if epoch < 10:
-        return float(lr)
-    else:
-        return float(lr * tf.math.exp(-0.1))
-```
+### 1. **Efficient IoU Implementation**
+- Vectorized calculations for performance optimization
+- Proper handling of edge cases (non-overlapping boxes)
+- Memory-efficient processing for large datasets
 
-#### 4. **Regularization Strategies**
-- L2 weight regularization
-- Progressive dropout rates
-- Early stopping with patience
+### 2. **Robust Data Pipeline**
+- Error handling for missing annotations
+- Flexible image path management
+- Scalable processing architecture
 
-### Key Technical Features
-- **Automated Training Pipeline**: Systematic training of all 9 configurations
-- **Performance Tracking**: Comprehensive accuracy logging and CSV export
-- **Confusion Matrix Generation**: Detailed classification analysis
-- **Model Checkpointing**: Best model preservation for each configuration
-- **Early Stopping**: Intelligent training termination to prevent overfitting
+### 3. **Comprehensive Evaluation Framework**
+- Multi-class object detection support
+- Configurable confidence thresholds
+- Detailed performance reporting
 
----
+## 📈 Performance Insights
 
-## 🛠️ Technical Stack
+The evaluation system successfully processes multiple object classes and provides quantitative metrics for:
+- **Detection Accuracy**: How well the model identifies objects
+- **Localization Precision**: Accuracy of bounding box placement
+- **Class-specific Performance**: Individual class detection capabilities
 
-### Libraries & Frameworks
-- **Deep Learning**: TensorFlow/Keras, Ultralytics YOLO
-- **Computer Vision**: OpenCV, PIL
-- **Data Processing**: NumPy, Pandas
-- **Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn
+## 🚀 Usage
 
-### Development Environment
-- **Platform**: Google Colab with GPU acceleration (A100)
-- **Python Version**: 3.12.2
-- **Hardware**: High-memory runtime for large model training
-
----
-
-## 📈 Results & Insights
-
-### Object Detection Performance
-- Successfully implemented IoU-based evaluation system
-- Achieved comprehensive performance analysis across multiple test images
-- Generated exportable results for further analysis
-
-### CNN Architecture Study
-- Systematic comparison of 9 different architectural approaches
-- Identification of optimal hyperparameter combinations
-- Documentation of performance improvements through architectural innovations
-
----
-
-## 🎯 Key Accomplishments
-
-### Technical Excellence
-- **Modular Code Design**: Clean, reusable functions with clear documentation
-- **Comprehensive Evaluation**: Multiple metrics and visualization approaches
-- **Production-Ready Code**: Error handling and robust data processing
-- **Scalable Architecture**: Easily extensible for additional models or datasets
-
-### Research Methodology
-- **Systematic Approach**: Controlled experiments with single-variable changes
-- **Quantitative Analysis**: Detailed performance metrics and comparisons
-- **Visual Validation**: Comprehensive visualization for result interpretation
-- **Reproducible Results**: Well-documented hyperparameters and configurations
-
----
-
-## 💼 Professional Skills Demonstrated
-
-- **Computer Vision**: Object detection, image classification, bounding box analysis
-- **Deep Learning**: CNN architecture design, hyperparameter optimization
-- **Model Evaluation**: IoU calculations, confusion matrices, performance metrics
-- **Data Engineering**: Efficient data loading, preprocessing pipelines
-- **Research Methodology**: Systematic experimentation and analysis
-- **Code Quality**: Clean, documented, production-ready implementations
-
----
-
-## 🔧 Setup & Usage
-
-### Requirements Installation
+### Setup
 ```bash
-pip install ultralytics tensorflow opencv-python pandas numpy matplotlib seaborn scikit-learn
+pip install ultralytics opencv-python pandas numpy matplotlib scikit-learn
 ```
 
-### Running the Projects
-1. **Object Detection Evaluation**: Execute the Python script with your COCO dataset path
-2. **CNN Comparison Study**: Run the Jupyter notebook in a GPU-enabled environment
+### Execution
+```python
+# Configure dataset paths
+base_path = '/path/to/your/dataset/'
+annotations_file = '/path/to/annotations.csv'
+
+# Run evaluation pipeline
+python object_detection_evaluation.py
+```
+
+## 🔮 Future Enhancements
+
+- **mAP Implementation**: Mean Average Precision calculations
+- **Multi-model Comparison**: Support for different YOLO versions
+- **Real-time Evaluation**: Live inference performance metrics
+- **Advanced Visualizations**: Interactive result exploration tools
+
+## 🎯 Professional Applications
+
+This project demonstrates expertise in:
+- **Computer Vision Pipeline Development**
+- **Model Evaluation Methodologies** 
+- **Production-Ready Code Architecture**
+- **Quantitative Performance Analysis**
 
 ---
 
-## 📝 Future Enhancements
-
-- **Model Expansion**: Integration of additional YOLO versions and CNN architectures
-- **Advanced Metrics**: Implementation of mAP, precision-recall curves
-- **Automated Hyperparameter Tuning**: Bayesian optimization integration
-- **Real-time Inference**: Deployment-ready model serving capabilities
-
----
-
-## 📞 Contact
-
-This portfolio demonstrates practical expertise in deep learning, computer vision, and systematic machine learning research. The projects showcase both theoretical understanding and practical implementation skills essential for modern AI development roles.
-
-*Ready to contribute to cutting-edge AI projects and drive innovation through data-driven solutions.*
+*This evaluation framework showcases practical skills in object detection model assessment, essential for computer vision roles in industry and research.*
