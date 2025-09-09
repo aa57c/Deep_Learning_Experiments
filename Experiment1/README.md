@@ -202,6 +202,7 @@ python object_detection_evaluation.py
 # Launch Jupyter and run experiment1.ipynb
 jupyter notebook experiment1.ipynb
 ```
+## Sample Results
 
 ---
 
@@ -213,6 +214,8 @@ jupyter notebook experiment1.ipynb
 - **Research Methodology**: Controlled experimentation and quantitative analysis
 - **Data Engineering**: Efficient preprocessing and augmentation pipelines
 - **Production Code**: Clean, documented, scalable implementations
+
+
 
 ---
 
