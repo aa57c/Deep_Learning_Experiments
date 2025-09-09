@@ -156,6 +156,36 @@ flowchart TD
   </tr>
 </table>
 
+## ADE20K Dataset Images With Metrics (Using SegFormerImageProcessor from HuggingFace Transformers)
+<table>
+  <tr>
+    <th>Image Number</th>
+    <th>Original Image VS Segmentation</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Sample Image 0</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/images_with_metrics/sample_image_0_0.png?raw=true" width="500"><br>
+      <em>Figure 9</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Sample Image 1</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/images_with_metrics/sample_image_1_0.png?raw=true" width="500"><br>
+      <em>Figure 10</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Sample Image 2</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/images_with_metrics/sample_image_2_0.png?raw=true" width="500"><br>
+      <em>Figure 11</em>
+    </td>
+  </tr>
+</table>
+
+
 
 
 
