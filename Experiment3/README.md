@@ -25,7 +25,7 @@
 
 * Training halted early due to stagnant validation loss
 * Final validation accuracy: \~0.9%
-* Trained model and logs are available under the **[Releases](../../releases)** tab
+* Trained model and logs are available under the **[Releases](https://github.com/aa57c/Deep_Learning_Experiments/releases/tag/v.1.0.0)** tab
 
 ## Portfolio Notes
 
