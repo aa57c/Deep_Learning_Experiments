@@ -85,14 +85,14 @@ flowchart TD
   <tr>
     <td align="center"><b>CIFAR100</b></td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/CIFAR100/plot.png?raw=true" width="300"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/CIFAR100/plot.png?raw=true" width="500"><br>
       <em>Figure 1: Training Accuracy Plot for Custom Topology with CIFAR100 Dataset</em>
     </td>
   </tr>
   <tr>
     <td align="center"><b>TinyImageNet</b></td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/ImageNet/plot.png?raw=true" width="300"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/Custom/ImageNet/plot.png?raw=true" width="500"><br>
       <em>Figure 2: Training Accuracy Plot for Custom Topology with TinyImageNet Dataset</em>
     </td>
   </tr>
@@ -107,21 +107,21 @@ flowchart TD
   <tr>
     <td align="center"><b>CIFAR10</b></td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR10/plot.png?raw=true" width="300"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR10/plot.png?raw=true" width="500"><br>
       <em>Figure 3: Training Accuracy Plot for ResNet Topology with CIFAR10 Dataset</em>
     </td>
   </tr>
   <tr>
     <td align="center"><b>CIFAR100</b></td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR100/plot.png?raw=true" width="300"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR100/plot.png?raw=true" width="500"><br>
       <em>Figure 4: Training Accuracy Plot for ResNet Topology with CIFAR100 Dataset</em>
     </td>
   </tr>
   <tr>
     <td align="center"><b>TinyImageNet</b></td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/ImageNet/plot.png?raw=true" width="300"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/ImageNet/plot.png?raw=true" width="500"><br>
       <em>Figure 5: Training Accuracy Plot for ResNet Topology with TinyImageNet Dataset</em>
     </td>
   </tr>
