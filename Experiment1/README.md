@@ -4,7 +4,7 @@ This folder contains two comprehensive deep learning projects demonstrating expe
 
 ## 📁 Project Files
 
-### 1. `object_detection_evaluation.py`
+### 1. `experiment1_B_yolo.ipynb`
 YOLO model evaluation system using Microsoft COCO dataset
 
 ### 2. `experiment1.ipynb` 
