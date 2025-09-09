@@ -168,28 +168,28 @@ for model in models:
       <em>Model 1's Confusion Matrix</em>
     </td>
     <td align="center">
-      <img src="images/img2.png" alt="Image2" width="200"><br>
-      <em>Caption 2</em>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model1_plot.png?raw=true" alt="Image2" width="500"><br>
+      <em>Model 1's Accuracy/Loss Plot</em>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="images/img3.png" alt="Image3" width="200"><br>
-      <em>Caption 3</em>
+      <em>Model 5's Confusion Matrix</em>
     </td>
     <td align="center">
       <img src="images/img4.png" alt="Image4" width="200"><br>
-      <em>Caption 4</em>
+      <em>Model 5's Accuracy/Loss Plot</em>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="images/img5.png" alt="Image5" width="200"><br>
-      <em>Caption 5</em>
+      <em>Model 7's Confusion Matrix</em>
     </td>
     <td align="center">
       <img src="images/img6.png" alt="Image6" width="200"><br>
-      <em>Caption 6</em>
+      <em>Model 7's Accuracy/Loss Plot</em>
     </td>
   </tr>
 </table>
