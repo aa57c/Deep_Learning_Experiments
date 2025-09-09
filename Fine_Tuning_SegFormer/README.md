@@ -69,7 +69,6 @@ This project demonstrates fine-tuning the **SegFormer** model (`SegFormerForSema
 
 ## Files
 
-- `train_segformer.py` — Training script
-- `inference_segformer.ipynb` — Inference and visualization
-- `ADE20k_toy_dataset/` — Sample dataset
+- `Fine_tune_Segformer.ipynb` — Training script
+- `ADE20k_toy_dataset/` — Sample dataset (this has to be downloaded)
 - `README.md` — This file
