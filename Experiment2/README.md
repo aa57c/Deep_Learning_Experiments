@@ -36,7 +36,7 @@ flowchart TD
 # Pipeline:
 ```mermaid
 flowchart TD
-    A[Load Training Logs CSVs] --> B[Parse Histories for Custom / ResNet / VGG]
+    A[Load Training Logs CSVs] --> B[Parse Histories for Custom, ResNet, and VGG]
     B --> C[Plot Accuracy and Loss Curves]
     C --> D[Save Plots to Results Folder]
 ```
