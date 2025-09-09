@@ -164,7 +164,7 @@ for model in models:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true" alt="Image1" width="200"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true" alt="Image1" width="500"><br>
       <em>Model 1's Confusion Matrix</em>
     </td>
     <td align="center">
