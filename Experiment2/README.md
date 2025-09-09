@@ -1,4 +1,4 @@
-## Experiment 2 – Transfer Learning & Semantic Segmentation
+# Experiment 2 – Transfer Learning & Semantic Segmentation
 
 This folder contains Jupyter notebooks for Experiment 2, covering:
 
@@ -8,7 +8,7 @@ This folder contains Jupyter notebooks for Experiment 2, covering:
 
 
 ## 📂 Notebooks
-# 1. experiment2_A_custom_topology.ipynb
+### 1. experiment2_A_custom_topology.ipynb
 - Loads a pretrained custom model.
 - Prepares datasets (CIFAR100, Tiny-ImageNet).
 - Applies data augmentation (ImageDataGenerator).
@@ -16,7 +16,7 @@ This folder contains Jupyter notebooks for Experiment 2, covering:
 - Trains with early stopping and learning rate scheduling.
 - Saves training history (CSV) and plots.
   
-# Pipeline:
+### Pipeline:
 ```mermaid
 flowchart TD
     A[Load Pretrained Model] --> B[Modify Final Layer for New Classes]
@@ -25,7 +25,7 @@ flowchart TD
     D --> E[Train with LR Scheduler + Early Stopping]
     E --> F[Save Training History & Results]
 ```
-## 2. experiment2_A_csv_to_plot.ipynb
+### 2. experiment2_A_csv_to_plot.ipynb
 
 - Reads CSV logs from Part A & baselines (ResNet, VGG19).
 - Generates side-by-side plots:
@@ -33,14 +33,14 @@ flowchart TD
   - Training vs Validation Loss
   - Saves plots into corresponding result directories.
 
-# Pipeline:
+### Pipeline:
 ```mermaid
 flowchart TD
     A[Load Training Logs CSVs] --> B[Parse Histories for Custom, ResNet, and VGG]
     B --> C[Plot Accuracy and Loss Curves]
     C --> D[Save Plots to Results Folder]
 ```
-## 3. experiment2_B.ipynb
+### 3. experiment2_B.ipynb
 - Downloads and extracts ADE20k toy dataset.
 - Defines custom PyTorch Dataset for segmentation.
 - Fine-tunes SegFormer (nvidia/mit-b0).
@@ -48,7 +48,7 @@ flowchart TD
 - Produces overlays of predictions with segmentation masks.
 - Generates per-class metrics and heatmaps for Accuracy & IoU.
 
-# Pipeline:
+### Pipeline:
 ```mermaid
 flowchart TD
     A[Download ADE20k Toy Dataset] --> B[Define Dataset Class]
@@ -60,14 +60,14 @@ flowchart TD
     G --> H[Compute Per-Class Metrics + Heatmaps]
 ```
 ## 🚀 How to Run
-# Prerequisites
+### Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
 - Install dependencies:
   ```bash
   pip install tensorflow keras torch torchvision transformers datasets evaluate imageio pandas matplotlib seaborn
   ```
-# Running
+### Running
 1. Open JupyterLab/Notebook:
   ```bash
   jupyter notebook
@@ -90,9 +90,9 @@ flowchart TD
    - Heatmaps for class-wise Accuracy & IoU.
    - Detailed per-class metrics CSV.
 
-# ⚡ Note: You don’t need to rerun all training to see results. Pre-generated CSV logs, plots, and visualizations are available in the Releases tab
+### ⚡ Note: You don’t need to rerun all training to see results. Pre-generated CSV logs, plots, and visualizations are available in the Releases tab
 
-# Demonstrates:
+## Demonstrates:
 
 1. Transfer Learning for Image Classification
    - How a pretrained model (custom, ResNet, or VGG) can be fine-tuned on new datasets (CIFAR100, Tiny-ImageNet).
