@@ -1,4 +1,4 @@
-### Experiment 2 – Transfer Learning & Semantic Segmentation
+## Experiment 2 – Transfer Learning & Semantic Segmentation
 
 This folder contains Jupyter notebooks for Experiment 2, covering:
 
