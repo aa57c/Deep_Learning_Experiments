@@ -187,7 +187,7 @@ flowchart TD
 
 ## HeatMap for SegFormerImageProcessor with ADE20K Dataset (Accuracies and IoUs)
 <figure>
-  <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/heatmaps.png?raw=true" alt="Example" width="500"/>
+  <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/heatmaps.png?raw=true" alt="Example" width="800"/>
   <figcaption align="center"><b>Figure 12:</b> Heatmap of Object Segmentation Accuracies and IoUs</figcaption>
 </figure>
 
