@@ -168,7 +168,7 @@ for model in models:
       <em>Model 1's Confusion Matrix</em>
     </td>
     <td align="center">
-      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model1_plot.png?raw=true" alt="Image2" width="500" length="500"><br>
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model1_plot.png?raw=true" alt="Image2" width="500" height=500><br>
       <em>Model 1's Accuracy/Loss Plot</em>
     </td>
   </tr>
