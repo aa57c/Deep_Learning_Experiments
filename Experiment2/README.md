@@ -3,7 +3,7 @@
 This folder contains Jupyter notebooks for Experiment 2, covering:
 
 - Part A: Transfer learning with a custom topology on CIFAR100 & Tiny-ImageNet.
-- Part A (Analysis): Visualization of results for Custom, ResNet, and VGG models.
+- Part A (Analysis): Visualization of results for Custom, ResNet, and VGG models using datasets CIFAR10, CIFAR100, & Tiny-ImageNet
 - Part B: Semantic segmentation using HuggingFace SegFormer on ADE20k toy dataset.
 
 
