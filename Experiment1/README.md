@@ -196,7 +196,7 @@ for model in models:
 
 ## Sample Results - Experiment 1 YOLO 
 ### Note: the rest can be found in Releases under version 1.0.0
-<table>
+<table align="center" cellspacing="10">
   <tr>
     <th>Image</th>
     <th>Predicted Class</th>
@@ -205,62 +205,63 @@ for model in models:
     <th>IoU</th>
   </tr>
   <tr>
-    <td>image1</td>
-    <td>person</td>
-    <td>[59, 295, 109, 385]</td>
-    <td>[57, 295, 105, 384]</td>
-    <td>0.87516</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image1.jpg?raw=true" alt="image1" width="120"></td>
+    <td align="center">person</td>
+    <td align="center">[59, 295, 109, 385]</td>
+    <td align="center">[57, 295, 105, 384]</td>
+    <td align="center">0.87516</td>
   </tr>
   <tr>
-    <td>image2</td>
-    <td>dog</td>
-    <td>[180, 245, 269, 336]</td>
-    <td>[186, 246, 270, 333]</td>
-    <td>0.88212</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image2.jpg?raw=true" alt="image2" width="120"></td>
+    <td align="center">dog</td>
+    <td align="center">[180, 245, 269, 336]</td>
+    <td align="center">[186, 246, 270, 333]</td>
+    <td align="center">0.88212</td>
   </tr>
   <tr>
-    <td>image2</td>
-    <td>vase</td>
-    <td>[103, 115, 130, 150]</td>
-    <td>[103, 117, 130, 152]</td>
-    <td>0.89189</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image2.jpg?raw=true" alt="image2" width="120"></td>
+    <td align="center">vase</td>
+    <td align="center">[103, 115, 130, 150]</td>
+    <td align="center">[103, 117, 130, 152]</td>
+    <td align="center">0.89189</td>
   </tr>
   <tr>
-    <td>image2</td>
-    <td>vase</td>
-    <td>[178, 128, 192, 145]</td>
-    <td>[178, 128, 191, 147]</td>
-    <td>0.83712</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image2.jpg?raw=true" alt="image2" width="120"></td>
+    <td align="center">vase</td>
+    <td align="center">[178, 128, 192, 145]</td>
+    <td align="center">[178, 128, 191, 147]</td>
+    <td align="center">0.83712</td>
   </tr>
   <tr>
-    <td>image2</td>
-    <td>person</td>
-    <td>[417, 22, 487, 162]</td>
-    <td>[419, 22, 487, 169]</td>
-    <td>0.92643</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image2.jpg?raw=true" alt="image2" width="120"></td>
+    <td align="center">person</td>
+    <td align="center">[417, 22, 487, 162]</td>
+    <td align="center">[419, 22, 487, 169]</td>
+    <td align="center">0.92643</td>
   </tr>
   <tr>
-    <td>image2</td>
-    <td>chair</td>
-    <td>[279, 87, 364, 164]</td>
-    <td>[280, 87, 362, 149]</td>
-    <td>0.77678</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image2.jpg?raw=true" alt="image2" width="120"></td>
+    <td align="center">chair</td>
+    <td align="center">[279, 87, 364, 164]</td>
+    <td align="center">[280, 87, 362, 149]</td>
+    <td align="center">0.77678</td>
   </tr>
   <tr>
-    <td>image3</td>
-    <td>horse</td>
-    <td>[81, 14, 228, 282]</td>
-    <td>[81, 14, 233, 284]</td>
-    <td>0.95994</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image3.jpg?raw=true" alt="image3" width="120"></td>
+    <td align="center">horse</td>
+    <td align="center">[81, 14, 228, 282]</td>
+    <td align="center">[81, 14, 233, 284]</td>
+    <td align="center">0.95994</td>
   </tr>
   <tr>
-    <td>image3</td>
-    <td>person</td>
-    <td>[15, 64, 104, 310]</td>
-    <td>[17, 62, 98, 309]</td>
-    <td>0.89976</td>
+    <td align="center"><img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/image3.jpg?raw=true" alt="image3" width="120"></td>
+    <td align="center">person</td>
+    <td align="center">[15, 64, 104, 310]</td>
+    <td align="center">[17, 62, 98, 309]</td>
+    <td align="center">0.89976</td>
   </tr>
 </table>
+
 
 ---
 
