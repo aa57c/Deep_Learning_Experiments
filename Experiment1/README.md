@@ -160,18 +160,40 @@ for model in models:
 
 ## Sample Results (Models 1, 5, and 7)
 ### Note: the rest can be found in Releases under version 1.0.0
-| ![Image1](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true) | ![Image2](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model1_plot.png?raw=true) |
-|----------------------------|----------------------------|
-| *Model 1's Confusion Matrix* | *Model 1's Accuracy/Loss Plots*                |
-
-| ![Image3](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model5.png?raw=true) | ![Image4](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model5_plot.png?raw=true) |
-|----------------------------|----------------------------|
-| *Model 5's Confusion Matrix*                | *Model 5's Accuracy/Loss Plots               |
-
-| ![Image5](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model7.png?raw=true) | ![Image6](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/model7_plot.png?raw=true) |
-|----------------------------|----------------------------|
-| *Model 7's Confusion Matrix*                | *Model 7's Accuracy/Loss Plots*                |
-
+```html
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true" alt="Image1" width="200"><br>
+      <em>Model 1's Confusion Matrix</em>
+    </td>
+    <td align="center">
+      <img src="images/img2.png" alt="Image2" width="200"><br>
+      <em>Caption 2</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/img3.png" alt="Image3" width="200"><br>
+      <em>Caption 3</em>
+    </td>
+    <td align="center">
+      <img src="images/img4.png" alt="Image4" width="200"><br>
+      <em>Caption 4</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/img5.png" alt="Image5" width="200"><br>
+      <em>Caption 5</em>
+    </td>
+    <td align="center">
+      <img src="images/img6.png" alt="Image6" width="200"><br>
+      <em>Caption 6</em>
+    </td>
+  </tr>
+</table>
+```
 
 
 
