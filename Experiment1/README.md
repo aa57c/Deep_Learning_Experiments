@@ -158,6 +158,11 @@ for model in models:
 - **Optimization Insights**: Impact analysis of various techniques
 - **Best Practices**: Identification of optimal hyperparameter combinations
 
+## Sample Results (Models 1, 5, and 7)
+### Note: the rest can be found in Releases under version 1.0.0
+![Model 1's Confusion Matrix](https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment1/confusion_matrix_model1.png?raw=true)
+
+
 ---
 
 ## 💡 Key Technical Achievements
@@ -202,7 +207,7 @@ python object_detection_evaluation.py
 # Launch Jupyter and run experiment1.ipynb
 jupyter notebook experiment1.ipynb
 ```
-## Sample Results
+
 
 ---
 
