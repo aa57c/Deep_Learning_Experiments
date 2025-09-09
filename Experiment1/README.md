@@ -158,7 +158,7 @@ for model in models:
 - **Optimization Insights**: Impact analysis of various techniques
 - **Best Practices**: Identification of optimal hyperparameter combinations
 
-## Sample Results (Models 1, 5, and 7)
+## Sample Results - Experiment 1 (Models 1, 5, and 7)
 ### Note: the rest can be found in Releases under version 1.0.0
 
 <table>
@@ -193,6 +193,21 @@ for model in models:
     </td>
   </tr>
 </table>
+
+## Sample Results - Experiment 1 YOLO 
+### Note: the rest can be found in Releases under version 1.0.0
+| Image  | Predicted Class | Predicted Coords       | Ground Truth Coords    | IoU          |
+|--------|----------------|----------------------|----------------------|--------------|
+| image1 | person         | [59, 295, 109, 385]  | [57, 295, 105, 384]  | 0.87516      |
+| image2 | dog            | [180, 245, 269, 336] | [186, 246, 270, 333] | 0.88212      |
+| image2 | vase           | [103, 115, 130, 150] | [103, 117, 130, 152] | 0.89189      |
+| image2 | vase           | [178, 128, 192, 145] | [178, 128, 191, 147] | 0.83712      |
+| image2 | person         | [417, 22, 487, 162]  | [419, 22, 487, 169]  | 0.92643      |
+| image2 | chair          | [279, 87, 364, 164]  | [280, 87, 362, 149]  | 0.77678      |
+| image3 | horse          | [81, 14, 228, 282]   | [81, 14, 233, 284]   | 0.95994      |
+| image3 | person         | [15, 64, 104, 310]   | [17, 62, 98, 309]    | 0.89976      |
+
+
 
 
 
