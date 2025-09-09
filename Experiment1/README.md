@@ -160,7 +160,7 @@ for model in models:
 
 ## Sample Results (Models 1, 5, and 7)
 ### Note: the rest can be found in Releases under version 1.0.0
-```html
+
 <table>
   <tr>
     <td align="center">
@@ -193,7 +193,6 @@ for model in models:
     </td>
   </tr>
 </table>
-```
 
 
 
