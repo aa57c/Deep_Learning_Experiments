@@ -98,7 +98,7 @@ flowchart TD
   </tr>
 </table>
 
-## ResNet
+## ResNet Model
 <table>
   <tr>
     <th>Dataset</th>
@@ -108,21 +108,50 @@ flowchart TD
     <td align="center"><b>CIFAR10</b></td>
     <td align="center">
       <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR10/plot.png?raw=true" width="500"><br>
-      <em>Figure 3: Training Accuracy Plot for ResNet Topology with CIFAR10 Dataset</em>
+      <em>Figure 3: Training Accuracy Plot for ResNet Model with CIFAR10 Dataset</em>
     </td>
   </tr>
   <tr>
     <td align="center"><b>CIFAR100</b></td>
     <td align="center">
       <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/CIFAR100/plot.png?raw=true" width="500"><br>
-      <em>Figure 4: Training Accuracy Plot for ResNet Topology with CIFAR100 Dataset</em>
+      <em>Figure 4: Training Accuracy Plot for ResNet Model with CIFAR100 Dataset</em>
     </td>
   </tr>
   <tr>
     <td align="center"><b>TinyImageNet</b></td>
     <td align="center">
       <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/ResNet/ImageNet/plot.png?raw=true" width="500"><br>
-      <em>Figure 5: Training Accuracy Plot for ResNet Topology with TinyImageNet Dataset</em>
+      <em>Figure 5: Training Accuracy Plot for ResNet Model with TinyImageNet Dataset</em>
+    </td>
+  </tr>
+</table>
+
+## VGG19 Model
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Training Accuracy Plot</th>
+  </tr>
+  <tr>
+    <td align="center"><b>CIFAR10</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/VGG19/CIFAR10/plot.png?raw=true" width="500"><br>
+      <em>Figure 6: Training Accuracy Plot for VGG19 Model Topology with CIFAR10 Dataset</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>CIFAR100</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/VGG19/CIFAR100/plot.png?raw=true" width="500"><br>
+      <em>Figure 7: Training Accuracy Plot for VGG19 Model Topology with CIFAR100 Dataset</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>TinyImageNet</b></td>
+    <td align="center">
+      <img src="https://github.com/aa57c/Deep_Learning_Experiments/blob/master/Experiment2/VGG19/ImageNet/plot.png?raw=true" width="500"><br>
+      <em>Figure 8: Training Accuracy Plot for VGG19 Model Topology with TinyImageNet Dataset</em>
     </td>
   </tr>
 </table>
