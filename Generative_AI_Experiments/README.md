@@ -49,20 +49,6 @@ This approach allows creating visually appealing hybrid images that maintain the
      Iteration 4000: loss=510.70
      ```
    - Final generated images blend content and style effectively.
-   - Outputs stored in `results/` and archived in `results.zip`.
-   - Style reference images archived in `style_refs.zip`.
-
----
-
-## Example
-
-**Content Image:** `image1_me_and_sis.jpg`  
-**Style Reference:** `scream.jpg`  
-
-The generated image preserves the original content while adopting the textures and colors of the reference style.
-
----
-
 
 ---
 
